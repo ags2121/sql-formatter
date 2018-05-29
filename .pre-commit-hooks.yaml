@@ -1,0 +1,9 @@
+-   id: sql-formatter-cli
+    name: sql-formatter-cli
+    entry: sql-formatter-cli
+    language: node
+    types: [sql]
+
+    # Use additional_dependencies to install the actual node package
+    additional_dependencies: ['sql-formatter-cli']
+    
